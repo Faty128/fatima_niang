@@ -305,7 +305,7 @@ section#contact {
         margin-left: -80px;
       }
       .timeline:before {
-        left: 35%;
+        left: 34%;
       }
       .timeline > li .timeline-panel {
         float: right;
@@ -354,11 +354,13 @@ section#contact {
 }
 .btn.disabled {
     pointer-events: none;
+    margin: auto;
+    width:  10rem;
+    font-size: 14px;
     opacity: 0.65;
     background-color: #ffc800;
     border-color: #ffc800;
     height: 70px;
-    /* margin-top: 1rem; */
 }
 
 /* Footer */
